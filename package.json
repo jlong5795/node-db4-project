@@ -2,7 +2,7 @@
   "name": "node-db4-project",
   "version": "1.0.0",
   "description": "- database modeling.\r - migration scripts.\r - seeding.\r - knex.",
-  "main": "knexfile.js",
+  "main": "index.js",
   "dependencies": {
     "express": "^4.17.1",
     "knex": "^0.20.10",
@@ -11,7 +11,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js"
   },
   "repository": {
     "type": "git",
